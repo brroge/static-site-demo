@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My AWS Static Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 20px 0;
+    }
+    main {
+      margin-top: 40px;
+    }
+    button {
+      background-color: #007acc;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My AWS Static Website</h1>
+  </header>
+  <main>
+    <p>This site is hosted on Amazon S3 and deployed automatically using AWS CodePipeline.</p>
+    <p>Try editing this text and committing the change to see your pipeline in action!</p>
+    <button onclick="alert('Deployed successfully via CodePipeline!')">Test Button</button>
+  </main>
+  <footer style="margin-top: 60px; color: #777;">
+    <p>© 2025 My AWS Project</p>
+  </footer>
+</body>
+</html>
